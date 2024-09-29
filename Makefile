@@ -7,7 +7,7 @@ compTest:
 	g++ -std=c++11 test.cpp functions.cpp -o a.out
 
 compEvaluation:
-	g++ -std=c++11 evaluation.cpp functions.cpp -o a.out
+	g++ -std=c++11 evaluation.cpp functions.cpp-o a.out
 
 test: clean compTest; ./a.out
 
